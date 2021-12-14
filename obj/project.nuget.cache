@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "gXkEk04iQb8MPMgisO/fauvRP9Xhk7Iiefi0ZvQPdQNZId1jou3/Sw2SRv6sRhBWluzJhL50iXavWwVYjBXzAg==",
+  "success": true,
+  "projectFilePath": "/home/nicholas/Documents/qr_code_generator/qr_code_generator.csproj",
+  "expectedPackageFiles": [
+    "/home/nicholas/.nuget/packages/skiasharp/2.80.3/skiasharp.2.80.3.nupkg.sha512",
+    "/home/nicholas/.nuget/packages/skiasharp.nativeassets.linux/2.80.3/skiasharp.nativeassets.linux.2.80.3.nupkg.sha512",
+    "/home/nicholas/.nuget/packages/skiasharp.qrcode/0.4.1/skiasharp.qrcode.0.4.1.nupkg.sha512",
+    "/home/nicholas/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

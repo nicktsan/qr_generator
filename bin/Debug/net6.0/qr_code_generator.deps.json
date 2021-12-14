@@ -1,0 +1,127 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "qr_code_generator/1.0.0": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Linux": "2.80.3",
+          "SkiaSharp.QrCode": "0.4.1"
+        },
+        "runtime": {
+          "qr_code_generator.dll": {}
+        }
+      },
+      "SkiaSharp/2.80.3": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SkiaSharp.dll": {
+            "assemblyVersion": "2.80.0.0",
+            "fileVersion": "2.80.3.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Linux/2.80.3": {
+        "dependencies": {
+          "SkiaSharp": "2.80.3"
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSkiaSharp.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libSkiaSharp.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libSkiaSharp.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libSkiaSharp.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.QrCode/0.4.1": {
+        "dependencies": {
+          "SkiaSharp": "2.80.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SkiaSharp.QrCode.dll": {
+            "assemblyVersion": "0.4.1.0",
+            "fileVersion": "0.4.1.0"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {}
+    }
+  },
+  "libraries": {
+    "qr_code_generator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SkiaSharp/2.80.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qX6tGNP3+MXNYe2pKm0PCRiJ/cx+LTeLaggwZifB7sUMXhECfKKKHJq45VqZKt37xQegnCCdf1jHXwmHeJQs5Q==",
+      "path": "skiasharp/2.80.3",
+      "hashPath": "skiasharp.2.80.3.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Linux/2.80.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LYl/mvEXrsKMdDNPVjA4ul8JDDGZI8DIkFE0a5GdhaC/aooxgwjuaXZ9NfPg4cJsRf8tb6VhGHvjSNUngNOcJw==",
+      "path": "skiasharp.nativeassets.linux/2.80.3",
+      "hashPath": "skiasharp.nativeassets.linux.2.80.3.nupkg.sha512"
+    },
+    "SkiaSharp.QrCode/0.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/yTQp7i+Ujwl0CyNLv7l22uatGwy1gXAppex3du0rHezEi/owR+kstt77PCNSYJeIwOF1xTOJcjrrIF92K3f4A==",
+      "path": "skiasharp.qrcode/0.4.1",
+      "hashPath": "skiasharp.qrcode.0.4.1.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    }
+  }
+}

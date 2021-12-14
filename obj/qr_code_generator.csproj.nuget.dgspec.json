@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nicholas/Documents/qr_code_generator/qr_code_generator.csproj": {}
+  },
+  "projects": {
+    "/home/nicholas/Documents/qr_code_generator/qr_code_generator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nicholas/Documents/qr_code_generator/qr_code_generator.csproj",
+        "projectName": "qr_code_generator",
+        "projectPath": "/home/nicholas/Documents/qr_code_generator/qr_code_generator.csproj",
+        "packagesPath": "/home/nicholas/.nuget/packages/",
+        "outputPath": "/home/nicholas/Documents/qr_code_generator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nicholas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "SkiaSharp.NativeAssets.Linux": {
+              "target": "Package",
+              "version": "[2.80.3, )"
+            },
+            "SkiaSharp.QrCode": {
+              "target": "Package",
+              "version": "[0.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
