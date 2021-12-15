@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gXkEk04iQb8MPMgisO/fauvRP9Xhk7Iiefi0ZvQPdQNZId1jou3/Sw2SRv6sRhBWluzJhL50iXavWwVYjBXzAg==",
+  "dgSpecHash": "bTk4ZR0zFty7Mrk76KJhQAiYnOh8APx5L1u6JaO//krbys6XL7iaaV42YN5Bhp5RxFnlxWi05f5gQ2kJTqJgCg==",
   "success": true,
-  "projectFilePath": "/home/nicholas/Documents/qr_code_generator/qr_code_generator.csproj",
+  "projectFilePath": "/home/nicholas/Documents/qr_generator/qr_code_generator.csproj",
   "expectedPackageFiles": [
     "/home/nicholas/.nuget/packages/skiasharp/2.80.3/skiasharp.2.80.3.nupkg.sha512",
     "/home/nicholas/.nuget/packages/skiasharp.nativeassets.linux/2.80.3/skiasharp.nativeassets.linux.2.80.3.nupkg.sha512",

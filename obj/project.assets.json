@@ -228,6 +228,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "SkiaSharp >= 2.80.3",
       "SkiaSharp.NativeAssets.Linux >= 2.80.3",
       "SkiaSharp.QrCode >= 0.4.1"
     ]
@@ -238,11 +239,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nicholas/Documents/qr_code_generator/qr_code_generator.csproj",
+      "projectUniqueName": "/home/nicholas/Documents/qr_generator/qr_code_generator.csproj",
       "projectName": "qr_code_generator",
-      "projectPath": "/home/nicholas/Documents/qr_code_generator/qr_code_generator.csproj",
+      "projectPath": "/home/nicholas/Documents/qr_generator/qr_code_generator.csproj",
       "packagesPath": "/home/nicholas/.nuget/packages/",
-      "outputPath": "/home/nicholas/Documents/qr_code_generator/obj/",
+      "outputPath": "/home/nicholas/Documents/qr_generator/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/nicholas/.nuget/NuGet/NuGet.Config"
@@ -269,6 +270,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "SkiaSharp": {
+            "target": "Package",
+            "version": "[2.80.3, )"
+          },
           "SkiaSharp.NativeAssets.Linux": {
             "target": "Package",
             "version": "[2.80.3, )"
@@ -293,7 +298,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

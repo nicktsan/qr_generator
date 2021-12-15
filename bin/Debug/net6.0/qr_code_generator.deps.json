@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "qr_code_generator/1.0.0": {
         "dependencies": {
+          "SkiaSharp": "2.80.3",
           "SkiaSharp.NativeAssets.Linux": "2.80.3",
           "SkiaSharp.QrCode": "0.4.1"
         },
