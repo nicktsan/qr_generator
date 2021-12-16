@@ -41,7 +41,7 @@ namespace MyQRCodeGenerator
 
                         using var image = surface.Snapshot();
                         using var data = image.Encode(SKEncodedImageFormat.Png, 100);
-                        using var stream = File.OpenWrite(@$"qr-{level}" + parsedUrl + @".png");
+                        using var stream = File.OpenWrite(parsedUrl + @".png");
                         data.SaveTo(stream);
                     } catch (System.UriFormatException e)
                     {
